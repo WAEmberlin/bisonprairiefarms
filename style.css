@@ -1,4 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
   height: 100%;
   width: 100%;
+}
+
+/* Earthy Color Theme */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4ed; /* Soft beige background */
+    color: #2e471a; /* Dark green text */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Ensure the container doesn't add unnecessary spacing */
+.container {
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0 !important; /* Remove padding */
+    margin: 0 !important; /* Remove margin */
+}
+
+/* Navigation Bar */
+.navbar {
+    margin: 0;
+    padding: 0;
+    background-color: #dd6540; /* Orange */
+    margin-bottom: 0 !important; /* Force removal of any bottom margin */
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 1) !important;
+  /* White */
+}
+
+.navbar-brand {
+    color: rgba(255, 255, 255, 1) !important;
+/* White */
+    margin-right: 10px; /* Space from the left edge of the screen */
+    margin-left: 10px; /* Additional adjustment to center the logo more */
+}
+
+.nav-link:hover {
+  color: rgba(241, 218, 167, 1) !important;
+  /* Sandy text */
+}
+
+/* Adjust the hamburger menu button */
+.navbar-toggler {
+    margin-left: 10px; /* Space from the right edge of the screen */
+}
+
+/* Mobile navbar items */
+@media (max-width: 991px) {
+    .navbar-nav .nav-item {
+        margin-left: 10px; /* Add 10px space on the left of each list item */
+    }
+}
+
+
+
+/* Desktop Image Row */
+.image-row {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: 0; /* Remove all margins for edge alignment */
+    padding: 0; /* Remove padding to ensure images touch edges */
+    margin-bottom: 0.5rem; /* Spacing below the row */
+    margin-top: 0 !important;
+    box-sizing: border-box; /* Ensure widths and paddings are calculated consistently */
+}
+
+/* Image Styling */
+.image-item {
+    flex: 1; /* Ensures each image takes up equal width */
+    width: 25%; /* Redundant but explicit */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 !important; /* Ensure no margins around images */
+    padding: 0 !important; /* Remove any padding */
+    display: block; /* Ensure no extra space is created by inline-block elements */
+}
+
+/* Mobile Carousel */
+#mobile-carousel {
+    margin-top: 0 !important; /* Remove space above */
+    padding: 0 !important; /* Remove any padding */
+}
+
+/* Mobile Carousel
+.carousel img {
+    display: block;
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+
+h2 {
+  color: #2e471a;
+  /* Match navbar */
+}
+
+hr {
+  border: 1px solid #6a994e;
+  /* Lighter green */
+  margin-bottom: 0; /* Remove gap below horizontal rules */
+}
+
+section {
+  margin-bottom: 1rem;
+  text-align: center;
+  /* Ensure heading is centered */
+}
+
+section h2 {
+  border-bottom: 3px solid #ffa500;
+  /* Hunter orange underline */
+  display: inline-block;
+  padding-bottom: 0.3rem;
+  text-align: center;
+  /* Ensure heading is centered */
+}
+
+section p,
+section ul {
+  text-align: center;
+  /* Ensure paragraphs and lists are centered */
+}
+
+/* Fixing the list alignment */
+section ul {
+  list-style-position: inside;
+  /* Makes the bullets closer to the text */
+  padding-left: 0;
+  /* Removes the default left padding */
+  margin: 0;
+  /* Removes the default margin */
+  display: inline-block;
+  /* Centers the list as inline block */
+}
+
+section li {
+  text-align: left;
+  /* Aligns the text of list items to the left */
+  padding-left: 10px;
+  /* Adds some space between the bullet and the text */
+}
+
+#about-contact {
+    margin-bottom: 0; /* Ensure the section does not add space below */
+    padding-bottom: 0; /* Ensure padding doesn't contribute to the gap */
+}
+
+
+/* Footer Styling */
+.footer {
+  background-color: #2e471a;
+  /* Dark Green */
+  padding: 0.5rem 0;
+  text-align: center;
+  /* Ensures everything is centered */
+  color: rgba(255, 255, 255, 1);
+  /* White text to match navbar */
+  margin-top: 0; /* Prevent gap above the footer */
+}
+
+.footer h2 {
+  font-size: 2rem;
+  color: #dd6540;
+  /* Orange text for the title */
+  margin-bottom: 5px;
+}
+
+.footer p {
+  font-size: 1rem;
+  color: #dd6540;
+  /* Orange text */
+  margin: 3px 0;
+  /* Spacing between paragraphs */
 }

@@ -1,16 +1,169 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bison Prairie Farms</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Link to Custom JavaScript -->
+  <script src="script.js"></script>
 </head>
 
 <body>
-  <h1>UNDER CONSTRUCTION</h1>
-  <script src="script.js"></script>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <!-- Logo and Title -->
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="images/bpflogo.png" alt="Bison Prairie Farms Logo" style="height: 100px; margin-right: 10px;">
+        Bison Prairie Farms
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#microschool">Microschool</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#nature">Nature Enrichment Program</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#adult-classes">Adult Classes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-contact">About Me / Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container-fluid mt-5">
+    
+    <!-- Image Row Section -->
+    <div class="image-row d-none d-md-flex">
+        <img src="images/DSC_1073.jpg" alt="Image 1" class="img-fluid image-item">
+        <img src="images/DSC_0919.jpg" alt="Image 2" class="img-fluid image-item">
+        <img src="images/DSC_0780.jpg" alt="Image 3" class="img-fluid image-item">
+        <img src="images/DSC_0838.jpg" alt="Image 4" class="img-fluid image-item">
+    </div>
+
+    <!-- Mobile Carousel Section -->
+    <div id="mobile-carousel" class="carousel slide d-md-none" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/DSC_1073.jpg" alt="Image 1" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="images/DSC_0919.jpg" alt="Image 2" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="images/DSC_0780.jpg" alt="Image 3" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="images/DSC_0838.jpg" alt="Image 4" class="d-block w-100">
+            </div>
+        </div>
+    </div>
+
+
+    
+    <!-- Microschool Section -->
+    <section id="microschool">
+      <h2>Microschool</h2>
+      <p>
+        Bison Prairie Farms Microschool is a nature-inspired learning community for homeschooling families who want to
+        nurture curiosity, creativity, and a deep connection with the natural world.
+        Designed for children K-5, our
+        program blends outdoor exploration with hands-on, interdisciplinary lessons rooted in science, art, and
+        storytelling.
+      </p>
+      <h3>Enrollment Options</h3>
+      <ul>
+        <li><strong>Part Time:</strong> An enrichment group for peer interaction, nature play, themed unit studies, and
+          play opportunities to support your homeschool program.</li>
+        <li><strong>Full Time:</strong> Includes all part-time benefits, plus formal instruction in core content areas
+          (Math and ELA).</li>
+      </ul>
+      <h3>Tuition</h3>
+      <ul>
+        <li>1 day a week = $150 per month</li>
+        <li>2 days a week (M/W or T/Th) = $275 per month</li>
+        <li>4 days a week (M-Th) = $500 per month</li>
+        <li>5 days a week (M-F) = $575 per month</li>
+      </ul>
+      <p>Apply now! Email <a href="mailto:kylie.c.kilmer@gmail.com">kylie.c.kilmer@gmail.com</a> for an application.
+        Applications are reviewed and accepted on a first-come, first-serve basis.</p>
+      <p>Applicants will be added to the
+        waitlist in the order in which they were received.</p>
+      <p><a href="policy-handbook.pdf" target="_blank">Download the Policy Handbook</a></p>
+    </section>
+    <hr>
+
+    <!-- Nature Enrichment Program Section -->
+    <section id="nature">
+      <h2>Nature Enrichment Program</h2>
+      <p>
+        Join us on an exciting adventure into the heart of nature! Bison Prairie Farms Nature Enrichment Program is a
+        fun and interactive program designed for curious kids who love the outdoors. Each week, young adventurers will
+        embark on a journey to uncover the secrets of the outdoors. They'll learn about animals, plants, and ecosystems
+        through hands-on activities like bug hunts, leaf crafts, birdwatching, and nature storytelling.
+      </p>
+      <p>
+        Led by experienced teachers, this program encourages curiosity, creativity, and environmental stewardship,
+        teaching kids how to appreciate and protect the world around them. Perfect for ages 5–12, the Nature Enrichment
+        Program is a great way to spark a lifelong love of nature!
+      </p>
+      <h3>Program Highlights</h3>
+      <ul>
+        <li>Once a month sessions with individual registration.</li>
+        <li>No school days</li>
+        <li>Spring Break Camp</li>
+      </ul>
+      <p>
+        <a href="https://www.eventbrite.com/o/bison-prairie-farms-88589816993" target="_blank">Register online through
+          Eventbrite</a>
+      </p>
+      <p><a href="policy-handbook.pdf" target="_blank">Download the Policy Handbook</a></p>
+    </section>
+    <hr>
+
+    <!-- Adult Classes Section -->
+    <section id="adult-classes">
+      <h2>Adult and Family Classes</h2>
+      <p>COMING SOON</p>
+    </section>
+    <hr>
+  </div>
+
+  <!-- About and Contact Section -->
+  <section id="about-contact">
+      <h2>About Me & Contact</h2>
+      <p>Email: <a href="mailto:kylie.c.kilmer@gmail.com">kylie.c.kilmer@gmail.com</a></p>
+      <p>Call/Text: 785-258-4131</p>
+  </section>
+  <hr class="mb-0"> <!-- Use Bootstrap's mb-0 to eliminate bottom margin -->
+  
+  <!-- Footer -->
+  <footer class="footer mt-0"> <!-- Ensure no gap above the footer -->
+      <div class="container-fluid text-center">
+          <h2>Bison Prairie Farms</h2>
+          <p>Located two miles north of Abilene, Kansas</p>
+          <p>908 2600 Ave. Abilene, Kansas 67420</p>
+      </div>
+  </footer>
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

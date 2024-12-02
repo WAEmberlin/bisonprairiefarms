@@ -220,7 +220,7 @@ section li {
 
 @media (max-width: 768px) {
   .background-photo {
-    background-attachment: fixed; /* Disable fixed attachment for better performance */
+    background-attachment: scroll; /* Disable fixed attachment for better performance */
   }
 }
 

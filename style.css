@@ -188,3 +188,45 @@ section li {
   margin: 3px 0;
   /* Spacing between paragraphs */
 }
+
+
+/* Background photo styling */
+.background-photo {
+  position: relative;
+  height: 100vh; /* Full viewport height */
+  background-size: cover; /* Ensure the image covers the section */
+  background-position: center;
+  background-attachment: fixed; /* Makes the photo stay fixed in place */
+}
+
+/* Specific background photos */
+#microschool-photo {
+  background-image: url('images/DSC_1018.jpg'); /* Replace with your photo URL */
+}
+
+#nature-enrichment-photo {
+  background-image: url('images/DSC_1059.jpg'); /* Replace with your photo URL */
+}
+
+#adult-classes-photo {
+  background-image: url('images/DSC_0933.jpg'); /* Replace with your photo URL */
+}
+
+#about-me-photo {
+  background-image: url('images/DSC_1059.jpg'); /* Replace with your photo URL */
+}
+
+@media (max-width: 768px) {
+  .background-photo {
+    background-attachment: scroll; /* Disable fixed attachment for better performance */
+  }
+}
+
+.about-photo {
+  display: block;
+  margin: 0 auto 20px; /* Centers the image and adds space below it */
+  max-width: 100%; /* Ensures the image is responsive */
+  height: auto; /* Maintains the aspect ratio */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow for depth */
+}

@@ -222,6 +222,9 @@ section li {
   .background-photo {
     display: none; /* Hide background photos on mobile */
   }
+  section {
+      padding: 1rem 1rem; /* Add padding to sections for better spacing */
+    }
 }
 
 .about-photo {

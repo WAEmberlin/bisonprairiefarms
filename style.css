@@ -59,6 +59,8 @@ body {
     margin-left: 10px; /* Space from the right edge of the screen */
 }
 
+
+
 /* Mobile navbar items */
 @media (max-width: 991px) {
     .navbar-nav .nav-item {
@@ -218,7 +220,7 @@ section li {
 
 @media (max-width: 768px) {
   .background-photo {
-    background-attachment: scroll; /* Disable fixed attachment for better performance */
+    background-attachment: fixed; /* Disable fixed attachment for better performance */
   }
 }
 

@@ -197,7 +197,7 @@ section li {
   position: relative;
   height: 100vh; /* Full viewport height */
   background-size: cover; /* Ensure the image covers the section */
-  background-position: center;
+  background-position: center; /* Center the image */
   background-attachment: fixed; /* Makes the photo stay fixed in place */
 }
 
@@ -220,12 +220,23 @@ section li {
 
 @media (max-width: 768px) {
   .background-photo {
-    display: none; /* Hide background photos on mobile */
+    background-attachment: scroll; /* Allow the background to scroll */
+    height: auto; /* Adjust height for better appearance on mobile */
+    min-height: 300px; /* Ensure a minimum height for visual balance */
+    background-size: cover; /* Keep image proportions */
+    background-position: center; /* Center the image */
   }
+  
   section {
-      padding: 1rem 1rem; /* Add padding to sections for better spacing */
-    }
+    padding: 1rem 1rem; /* Add padding for mobile spacing */
+  }
+  
+  /* Additional padding to separate sections visually */
+  hr {
+    margin: 1rem 0;
+  }
 }
+
 
 .about-photo {
   display: block;

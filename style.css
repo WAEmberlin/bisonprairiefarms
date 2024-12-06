@@ -234,9 +234,9 @@ section li {
   /* Additional padding to separate sections visually */
   hr {
     margin: 1rem 0;
-  }
-}
 
+}
+}
 
 .about-photo {
   display: block;
@@ -245,4 +245,32 @@ section li {
   height: auto; /* Maintains the aspect ratio */
   border-radius: 10px; /* Optional: Add rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow for depth */
+}
+
+.soap-photo {
+  display: block;
+  margin: 0 auto 20px; /* Centers the image and adds space below it */
+  max-width: 50%; /* Ensures the image is responsive */
+  height: auto; /* Maintains the aspect ratio */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow for depth */
+}
+
+.tuition-photo {
+  display: block;
+  margin: 0 auto 20px; /* Centers the image and adds space below it */
+  max-width: 50%; /* Ensures the image is responsive */
+  height: auto; /* Maintains the aspect ratio */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow for depth */
+}
+
+/* Adjust for larger screens */
+@media (min-width: 768px) {
+  .soap-photo {
+    max-width: 50%; /* Makes the image smaller on desktops */
+  }
+  .tuition-photo {
+    max-width: 50%; /* Makes the image smaller on desktops */
+  }
 }

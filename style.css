@@ -250,7 +250,7 @@ section li {
 .soap-photo {
   display: block;
   margin: 0 auto 20px; /* Centers the image and adds space below it */
-  max-width: 50%; /* Ensures the image is responsive */
+  max-width: 100%; /* Ensures the image is responsive */
   height: auto; /* Maintains the aspect ratio */
   border-radius: 10px; /* Optional: Add rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow for depth */
@@ -259,7 +259,7 @@ section li {
 .tuition-photo {
   display: block;
   margin: 0 auto 20px; /* Centers the image and adds space below it */
-  max-width: 50%; /* Ensures the image is responsive */
+  max-width: 100%; /* Ensures the image is responsive */
   height: auto; /* Maintains the aspect ratio */
   border-radius: 10px; /* Optional: Add rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow for depth */

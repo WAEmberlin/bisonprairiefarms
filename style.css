@@ -270,4 +270,7 @@ section li {
   .soap-photo {
     max-width: 30%; /* Makes the image smaller on desktops */
   }
+    .tuition-photo {
+    max-width: 50%; /* Makes the image smaller on desktops */
+  }
 }

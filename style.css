@@ -111,6 +111,7 @@ body {
 h2 {
   color: #2e471a;
   /* Match navbar */
+  margin-top: 0rem;
 }
 
 hr {
@@ -243,7 +244,11 @@ section li {
   /* Additional padding to separate sections visually */
   hr {
     margin: 1rem 0;
-
+}
+    h2 {
+  color: #2e471a;
+  /* Match navbar */
+  margin-top: 0rem;
 }
 }
 
